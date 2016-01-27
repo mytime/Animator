@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--动画集合
+android:ordering="together" 默认，动画同时执行
+android:ordering="sequentially" 动画顺序执行 （不启用本属性，可以单独设定动画自身的延时功能实现顺序执行效果）
+
+-->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:ordering="sequentially">
+    <!--透明动画
+    propertyName="alpha"  透明动画，alpha名称必须在view.setAlpha 内置属性对应。
+    duration="1000"
+    -->
+    <objectAnimator
+        android:duration="1000"
+        android:propertyName="alpha"
+        android:valueFrom="0"
+        android:valueTo="1" />
+
+    <!--移位动画
+     android:propertyName="x" 从父级容器X轴0位置移动200
+     android:propertyName="x" 从父级容器Y轴0位置移动200
+     android:propertyName="translationX" 从本身位置X轴移动200
+     android:propertyName="translationY" 从本身位置Y轴移动200
+
+     android:startOffset="1000"  延时1000毫秒再执行，可以替代根属性ordering="sequentially"
+
+    -->
+    <objectAnimator
+        android:duration="1000"
+        android:propertyName="x"
+        android:valueFrom="0"
+        android:valueTo="200" />
+
+</set>

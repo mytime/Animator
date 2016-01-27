@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AnimateMe</string>
+    <string name="animator_me">使用xml实现旋转动画</string>
+    <string name="animator_set">用xml实现set动画集合</string>
+    <string name="code_set">用代码实现set动画集合</string>
+    <string name="code_rotation">使用代码实现旋转动画</string>
+</resources>

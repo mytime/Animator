@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.jikexueyuan.animateme.MainActivity">
+    <Button
+        android:id="@+id/btnCodeRotation"
+        android:text="@string/code_rotation"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnAnimeteMe"
+        android:text="@string/animator_me"
+        android:layout_width="wrap_content"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnAnimeteMe2"
+        android:text="@string/animator_set"
+        android:layout_width="wrap_content"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnAnimeteSet"
+        android:text="@string/code_set"
+        android:layout_width="wrap_content"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content" />
+</LinearLayout>

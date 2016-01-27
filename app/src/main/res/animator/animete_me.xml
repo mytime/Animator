@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--旋转动画-->
+    <!--android:duration="1000"  持续时间-->
+    <!--android:propertyName="rotation" 属性名称rotaion（旋转）-->
+    <!--android:valueFrom="0" 从0度开始-->
+    <!--android:valueTo="360" 到360度结束-->
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+    android:propertyName="rotation"
+    android:valueFrom="0"
+    android:valueTo="360"
+    >
+
+</objectAnimator>
